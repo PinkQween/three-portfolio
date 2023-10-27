@@ -28,7 +28,8 @@ import {
     xcode,
     styled,
     portfolio,
-    happy
+    happy,
+    ddlc
 } from "../assets";
 
 export const navLinks = [
@@ -67,15 +68,15 @@ const services = [
 
 const technologies = [
     {
-        name: "HTML 5",
+        name: "HTML5",
         icon: html,
     },
     {
-        name: "CSS 3",
+        name: "CSS3",
         icon: css,
     },
     {
-        name: "JavaScript",
+        name: "ES6",
         icon: javascript,
     },
     {
@@ -115,15 +116,15 @@ const technologies = [
         icon: swift,
     },
     {
-        name: "xcode",
+        name: "Xcode",
         icon: xcode,
     },
     {
-        name: "styled",
+        name: "Styled Components",
         icon: styled,
     },
     {
-        name: "docker",
+        name: "Docker",
         icon: docker,
     },
 ];
@@ -136,23 +137,23 @@ const experiences = [
         iconBg: "#383E56",
         date: "March 2020 - April 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            // "Developing and maintaining web applications using React.js and other related technologies.",
+            // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            // "Implementing responsive design and ensuring cross-browser compatibility.",
+            // "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     }
 ];
 
 const testimonials = [
-    {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Andy Boone",
-        designation: "COO",
-        company: "Happy Lucky's Teahouse LLC",
-        image: "https://media.licdn.com/dms/image/C4D03AQEVOEc1obfs9g/profile-displayphoto-shrink_800_800/0/1581106164397?e=2147483647&v=beta&t=BckgecL2AuEu9128N7Irjs63Azoun4Dkv56rK_PYD7A",
-    }
+    // {
+    //     testimonial:
+    //         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    //     name: "Andy Boone",
+    //     designation: "COO",
+    //     company: "Happy Lucky's Teahouse LLC",
+    //     image: "https://media.licdn.com/dms/image/C4D03AQEVOEc1obfs9g/profile-displayphoto-shrink_800_800/0/1581106164397?e=2147483647&v=beta&t=BckgecL2AuEu9128N7Irjs63Azoun4Dkv56rK_PYD7A",
+    // }
 ];
 
 const projects = [
@@ -176,7 +177,20 @@ const projects = [
         ],
         image: portfolio,
         source_code_link: "https://github.com/pinkQween/three-portfolio",
-        demo_link: "https://hannaskairipa.tk/",
+        demo_link: "https://hannaskairipa.com/",
+    },
+    {
+        name: "DDLC Websites Clone",
+        description: "A clone of the Doki Doki Literature Club Websites",
+        tags: [
+            {
+                name: "Chrome console proof of knowledge",
+                color: "pink-text-gradient",
+            }
+        ],
+        image: ddlc,
+        source_code_link: "https://github.com/pinkQween/DDLC-website",
+        demo_link: "https://ddlc.hannaskairipa.com/",
     }
 ];
 
